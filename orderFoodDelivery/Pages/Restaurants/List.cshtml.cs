@@ -22,10 +22,10 @@ namespace orderFoodDelivery.Pages
             this.config = config;
             this.restaurantData = restaurantData;
         }     
-        public void OnGet()
+        public void OnGet(string searchRes)
         {
             show = config["Message"];
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetRestaurantByName(searchRes);
         }
 
     }
