@@ -1,0 +1,10 @@
+﻿@page
+@model orderFoodDelivery.Pages.Restaurants.DetailModel
+@{
+}
+
+<h3>@Model.Restaurant.Name</h3>
+<div> ID: @Model.Restaurant.ID </div>
+<div> Cuisine: @Model.Restaurant.cuisine </div>
+<div> Location: @Model.Restaurant.Location </div>
+<a asp-page="./List" class="btn btn-default">See all Restaurants</a>

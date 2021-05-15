@@ -17,12 +17,15 @@ namespace orderFoodDelivery.Pages
 
         public string show { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
+
+        [BindProperty (SupportsGet = true)]
+        public string searchRes { get; set; }
         public ListModel(IConfiguration config,IRestaurantData restaurantData)
         {
             this.config = config;
             this.restaurantData = restaurantData;
         }     
-        public void OnGet(string searchRes)
+        public void OnGet()
         {
             show = config["Message"];
             Restaurants = restaurantData.GetRestaurantByName(searchRes);

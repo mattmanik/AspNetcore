@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "orderFoodDelivery", "orderFoodDelivery\orderFoodDelivery.csproj", "{74364B51-7861-4E3E-8CE4-836CC081ED19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food.core", "Food.core\Food.core.csproj", "{CD029570-991A-4FD0-9863-5EC82658AAB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Food.core", "Food.core\Food.core.csproj", "{CD029570-991A-4FD0-9863-5EC82658AAB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food.data", "Food.data\Food.data.csproj", "{035C7829-5FD9-43E8-B9FD-4647DB41EC72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Food.data", "Food.data\Food.data.csproj", "{035C7829-5FD9-43E8-B9FD-4647DB41EC72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
