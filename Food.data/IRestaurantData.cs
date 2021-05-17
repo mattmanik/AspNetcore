@@ -20,7 +20,9 @@ namespace Food.data
             {
                 new Restaurant {ID = 1,Location = "New York",cuisine = Restaurant.CuisineType.Italian, Name = "NY Kitchen" },
                 new Restaurant {ID = 2,Location = "London",cuisine = Restaurant.CuisineType.Japanese, Name = "Uzumaki Restaurant" },
-                new Restaurant {ID = 3,Location = "India",cuisine = Restaurant.CuisineType.Chinese, Name = "Shanghai Kitchen" }
+                new Restaurant {ID = 3,Location = "India",cuisine = Restaurant.CuisineType.Chinese, Name = "Shanghai Kitchen" },
+                new Restaurant {ID = 4,Location = "California",cuisine = Restaurant.CuisineType.Italian, Name = "California Table" },
+        
             };
         }
 
